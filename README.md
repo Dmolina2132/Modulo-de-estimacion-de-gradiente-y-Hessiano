@@ -1,2 +1,3 @@
 # Modulo-de-estimacion-de-gradiente-y-Hessiano
-Módulo para la estimación de gradiente, Hessiano y Hessiano estimado en BFGS con ejemplos de su uso y graficado
+Módulo para la estimación de gradiente, Hessiano y Hessiano estimado en BFGS con ejemplos de su uso y graficado.
+En el módulo Module_grad_hess_estimation.py encontramos una serie de funciones que son las que se utilizarán para hacer las estimaciones del gradiente, el hessiano y el hessiano estimado en el método BFGS. Entre dichas funciones se incluye el cálculo de la posición de los agentes en torno a un centro 'c' dado y el cálculo de pasos intermedios (si hubiese) para obtener las estimaciones mencionadas. En el archivo simulaciones_completo.py se encuentran ejemplos de la aplicación del módulo en el caso de tres dimensiones.
